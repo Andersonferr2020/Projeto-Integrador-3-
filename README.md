@@ -12,6 +12,7 @@ Desenvolver um sistema de monitoramento IoT para acompanhar temperatura e umidad
 Notificar automaticamente a proprietária e equipe responsável sobre anomalias na temperatura e possíveis falhas nos equipamentos.
 Armazenar dados históricos para análise e conformidade com regulamentações sanitárias.
 Melhorar a gestão da cadeia de frio e reduzir desperdícios de alimentos.
+
 🚀 Funcionalidades
 ✅ Monitoramento em tempo real de temperatura e umidade.
 ✅ Envio de alertas automáticos via WhatsApp, SMS ou e-mail.
