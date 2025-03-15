@@ -13,14 +13,19 @@ Notificar automaticamente a proprietária e equipe responsável sobre anomalias 
 Armazenar dados históricos para análise e conformidade com regulamentações sanitárias.
 Melhorar a gestão da cadeia de frio e reduzir desperdícios de alimentos.
 
-🚀 Funcionalidades
+🚀 Funcionalidades:
 ✅ Monitoramento em tempo real de temperatura e umidade.
-✅ Envio de alertas automáticos via WhatsApp, SMS ou e-mail.
-✅ Armazenamento de dados históricos para auditoria e análise.
-✅ Interface acessível via web e mobile.
-✅ Relatórios sobre a variação de temperatura ao longo do tempo.
 
-🛠 Tecnologias Utilizadas
+✅ Envio de alertas automáticos via WhatsApp, SMS ou e-mail.
+
+✅ Armazenamento de dados históricos para auditoria e análise. 
+
+✅ Interface acessível via web e mobile. 
+
+✅ Relatórios sobre a variação de temperatura ao longo do tempo. 
+
+
+🛠 Tecnologias Utilizadas:
 Hardware: ESP32, sensores de temperatura e umidade (DHT22).
 Back-end: Python, banco de dados PostgreSQL.
 Front-end: React.js.
