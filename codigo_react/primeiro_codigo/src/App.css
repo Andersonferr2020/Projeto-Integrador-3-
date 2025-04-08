@@ -1,0 +1,243 @@
+/* Estilo Geral do Site */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #bde6c6;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  background-color: #015814; /* Cor de fundo verde */
+  padding: 10px 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 98%;
+}
+
+.navbar-logo {
+  margin-right: 10px;
+  width: 30px;
+  height: 24px;
+}
+
+.navbar-brand {
+  color: #40eb3a;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+}
+
+.login-container {
+  display: flex;
+  align-items: center;
+}
+
+.login-input {
+  padding: 10px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #41ec3b;
+  background-color:  #083120;
+}
+
+.login-btn {
+  background-color: #083120;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .login-container {
+    width: 100%;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .login-input,
+  .login-btn {
+    width: 80%;
+    margin: 5px auto;
+  }
+}
+
+/* Estilo para o Footer */
+footer {
+  background-color: #015814; /* Cor de fundo verde */
+  color: white;
+  font-size: 16px;
+  width: 100%; /* Garante que o footer ocupe toda a largura da tela */
+  padding: 10px 0;
+  position: relative; /* Garantir o comportamento correto no layout */
+  bottom: 0; /* Garante que o footer fique no final da página */
+  margin-top: 30px; /* Distância do conteúdo acima */
+  display: flex;
+  justify-content: center; /* Centraliza o conteúdo horizontalmente */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-around; /* Distribui os itens horizontalmente */
+  align-items: center;
+  width: 100%; /* Garantir que ocupe toda a largura da tela */
+  padding: 0 10px; /* Adiciona um pequeno padding para evitar que o conteúdo grude nas bordas */
+  flex-wrap: wrap; /* Para garantir que os itens se ajustem em telas menores */
+}
+
+.footer-item {
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-item a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+}
+
+.footer-item a:hover {
+  color: #f0f0f0;
+}
+
+.footer-icon {
+  margin-right: 8px;
+  font-size: 24px; /* Tamanho dos ícones */
+}
+
+/* Responsividade para telas menores */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column; /* Ajusta o layout para telas menores */
+    text-align: center; /* Centraliza os itens */
+  }
+
+  .footer-item {
+    margin: 5px 0; /* Espaçamento ajustado para telas pequenas */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    flex-direction: column; /* Alinha os itens em coluna */
+    text-align: center;
+  }
+
+  .footer-item a {
+    font-size: 14px; /* Ajusta o tamanho da fonte para telas muito pequenas */
+  }
+}
+
+
+/* Cards */
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+  margin-top: 70px; /* Para não ficar embaixo da navbar fixa */
+}
+
+.card-item {
+  margin: 10px;
+  width: 30%;
+}
+
+.card {
+  border: 1px solid #020e04;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #083120;
+}
+
+.card-body {
+  text-align: center;
+}
+
+.card-text {
+  color: #e4e7e4;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.card a {
+  color: white;
+  text-decoration: none;
+}
+
+.card a:hover {
+  color: #f0f0f0;
+}
+
+@media (max-width: 768px) {
+  .card-item {
+    width: 45%;
+  }
+}
+
+@media (max-width: 480px) {
+  .card-item {
+    width: 100%;
+  }
+}
+
+/* Estilo Global para Inputs, Botões e Links */
+input {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 10px;
+  border: none;
+  background-color: #00ff6a;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+/* Usando Flexbox para centralizar o conteúdo */
+body {
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Ocupa toda a altura da tela */
+  margin: 0; /* Remove a margem padrão do body */
+}
+
+.container {
+  width: 100%; /* Ocupa 100% da largura */
+  max-width: 1200px; /* Define um limite máximo, se necessário */
+}
